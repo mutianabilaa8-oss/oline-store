@@ -16,6 +16,7 @@ export default defineConfig({
             scss: {
                 api: 'legacy',
                 quietDeps: true,
+                silenceDeprecations: ['import', 'color-functions'],
             },
         },
     },

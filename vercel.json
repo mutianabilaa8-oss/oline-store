@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "functions": {
-    "api/**/*.php": {
+    "public/index.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
@@ -11,10 +12,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/public/index.php"
+      "dest": "public/index.php"
     }
-  ],
-  "env": {
-    "PHP_VERSION": "8.2"
-  }
+  ]
 }
